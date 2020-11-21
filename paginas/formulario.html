@@ -1,0 +1,64 @@
+<html>
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+        <link rel="stylesheet" href="./main.css">
+        <link rel="stylesheet" href="./main1.css">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <script src="https://kit.fontawesome.com/5545eac543.js" crossorigin="anonymous"></script>
+        <script src="./app.js"></script>
+    </head>
+    <body>
+        <audio  autoplay id="volumeset">
+            <source src="./Becky G, Ozuna - No Drama (Official Video).opus" type="audio/mpeg"/>
+          <script>
+           var audio = document.getElementById("volumeset");
+           audio.volume =0.2;
+          </script>
+        </audio>        
+        <nav class="menu">
+            <label class="logo">Larax24ES</label>
+            <ul class="menu_items">
+                <li><a href="../index.html">Principal</a></li>
+                <li><a href="videos.html">Videos Explicativos</a></li>
+                <li><a href="rutas.html">Rutas Comunidad de Madrid</a></li>
+                <li><a href="aplicaciones.html">Aplicaciones practicas</a></li>
+                <li><a href="">Formulario</a></li>
+    
+                </ul>
+                <span class="btn_menu">
+                    <i class="fas fa-bars"></i>
+                    </span>
+                </nav>
+        
+            <form method="post" enctype="multipart/form-data" name="formulario" id="formulario">
+            <span class="span">Rellene el formulario<br><br><br><br>
+            <label class="label" for="Nombre">Su nombre:</label>
+            <input name="Nombre" type="text" required placeholder="Escriba su Nombre"><br><br>
+            <label class="label" for="Apellidos">Apellidos:</label>
+            <input name="Apellidos" type="text" required  placeholder="Escriba sus apellidos"><br><br>
+            <label class="label" for="Fecha">Introduzca su fecha de nacimiento:</label>
+            <input name="Fecha de nacimiento" type="date" required><br><br>
+            <label class="label" for="Correo">Introduzca su correo electronico:</label>
+            <input name="Correo" type="email" required  placeholder="Escriba su correo electronico"><br><br>
+            <label class="label" for="Domicilio">Domicilio en el que reside:</label>
+            <input name="Lugar de residencia" type="text" required placeholder="Escriba su dirección"><br><br>
+            <caption align="center">
+                <strong>Marque que tipo de contenido quiere que se vaya actualizando</strong><br><br>
+            <input name="videos" type="checkbox" id="videos">
+            <label class="label" for="Videos">Videos</label><br><br>
+            <input name="Rutas" type="checkbox" id="Rutas">
+            <label class="label" for="Videos">Rutas</label><br><br>
+            <input name="Aplicaciones" type="checkbox" id="Aplicaciones">
+            <label class="label" for="Videos">Aplicaciones</label><br><br>
+            <label class="label" for="Opinión">Esciba en el recuadro de abajo <br>su opinión de la web:</label><br><br>
+            <textarea required name="Que te ha parecido"  cols="50" rows="10" autofocus="autofocus" id="Que te ha aprecido" placeholder="Escriba por favor que le ha parecido esta pagina"></textarea><br><br>
+            <input name="Elige el correo del destinatario" type="submit" autofocus="autofocus" id="submit" form="formulario" formaction="mailto:" formenctype="text/plain" formmethod="POST" value="Enviar">
+            <input type="reset" name="reset" id="reset" value="Restablecer">
+            </span>
+            
+            </form>
+            
+    
+        
+    </body>
+</html>

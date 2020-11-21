@@ -1,0 +1,68 @@
+
+
+.contenedore {
+    
+    height: 0px;
+    width: 100%;
+    padding-bottom:56.25%;
+    position: relative;
+}
+
+.contenedore iframe {
+position:absolute;
+height: 70%;
+width: 95%;
+
+}
+
+body {
+background-image: url("foto.jpeg") ;
+background-repeat: no-repeat;
+background-position: center center;
+background-attachment: fixed;
+background-size: cover;
+}
+
+.logo {
+    color:royalblue;
+    font-size: 35px;
+    padding: 0 80px;
+    font-weight: bold;
+}
+
+
+input {
+color: firebrick;
+}
+
+.li {
+    color: lightcoral;
+    font-size: 21px;
+}
+
+.a {
+    color: deepskyblue;
+    font-size: 21px;
+}
+
+
+
+.span {
+    color: springgreen;
+    font-size: 21px;
+}
+
+.span_1 {
+    color: orange;
+    font-size: 21px;
+}
+.span_2 {
+    color: lightyellow;
+    font-size: 21px;
+}
+
+.label{
+    color: fuchsia;
+    font-size: 21px;
+}
+
